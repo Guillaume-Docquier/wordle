@@ -15,8 +15,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "move-build": "rm -rf ../../wordle && mkdir ..\\..\\wordle && cp -r ./build/* ../../wordle",
-    "deploy": "npm run build && npm run move-build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
