@@ -1,9 +1,13 @@
 name: Deploy to github pages
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
+    paths:
+      - src/**
+      - package-lock.json
 
 jobs:
   build:
